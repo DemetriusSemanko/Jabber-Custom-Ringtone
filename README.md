@@ -10,7 +10,7 @@ Below is a detailing of how to achieve this end.
 3. When you are happy with the audio file's length, volume, or other properties, export it with the following in mind:
     1. The file MUST be in mono.
     2. The file MUST have a bitrate of 384 kbps.
-        - This can be achieved by understanding the following forumla for calculating the bitrate of audio:
+        - This can be achieved by understanding the following formula for calculating the bitrate of audio:
             $bitrate = sample\ rate * bit\ depth * \ number\ of\ channels$
             - Sample rate is typically in **Hz**.
             - Bit depth is called "Encoding" in Audacity, and it is usually measured in a certain number of **bits**.
